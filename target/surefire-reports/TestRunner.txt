@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: TestRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 38.5 s <<< FAILURE! - in TestRunner
+TestRunner.runScenario["Login with valid email and password", "Optional[Login]"](1)  Time elapsed: 24.317 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using name=email
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Bellals-MBP', ip: '2603:7000:c803:d008:d849:601f:c38d:de0d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.2.3', java.version: '16.0.2'
+Driver info: driver.version: RemoteWebDriver
+
+TestRunner.runScenario["User should be able to search hotel in expedia", "Optional[Search hotel]"](2)  Time elapsed: 13.328 s  <<< FAILURE!
+org.openqa.selenium.InvalidSelectorException: 
+invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=93.0.4577.63)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Bellals-MBP', ip: '2603:7000:c803:d008:d849:601f:c38d:de0d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.2.3', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: /var/folders/_h/phymn4qn3rb...}, goog:chromeOptions: {debuggerAddress: localhost:65526}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 053ac72353ec3aa08ced88ec91fdccb5
+*** Element info: {Using=css selector, value=//*[@id="rso"]/div[1]/div/div/table/tbody/tr[2]/td/div/h3/a}
+
